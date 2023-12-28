@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="css/style.min.css">
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            background: #f7f7f7;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             height: 100%;
         }
         .block {
             background-color: #fff;
             padding: 30px;
-            max-width: 600px;
             width: 100%;
             height: 100%;
         }
@@ -37,6 +35,12 @@
             border-bottom: 1px solid #e1e1e1;
             padding-bottom: 20px;
         }
+
+        @media screen and (max-width: 576px) {
+            body {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
@@ -49,6 +53,14 @@
             <li><a href="page-2.html">Страница 2</a></li>
             <li><a href="page-3.html">Страница 3</a></li>
             <li><a href="page-4.html">Страница 4</a></li>
+        </ul>
+    </div>
+    <div class="block">
+        <h3>
+            Новые страницы 11_11_23
+        </h3>
+        <ul>
+            <li><a href="page-5.html">Страница 1</a></li>
         </ul>
     </div>
 </body>
