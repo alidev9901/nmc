@@ -1502,8 +1502,6 @@ label[for=checkbox_agreement] {
 .info-block__img {
   margin-right: 22px;
   flex-basis: 20%;
-  width: 20%;
-  min-width: 100px;
   max-width: 150px;
 }
 
@@ -5280,8 +5278,7 @@ table.table2 tr {
   }
   .info-block__img {
     margin-right: 22px;
-    flex-basis: 50%;
-    width: 50%;
+    width: 150px;
   }
   .categories__item {
     padding: 36px;
@@ -6365,12 +6362,6 @@ table.table2 tr {
   }
   .features__img {
     max-height: 316px;
-  }
-  .features__slider {
-    overflow: clip !important;
-  }
-  .features__items {
-    flex-direction: row;
   }
   .features__item {
     flex-direction: column-reverse;
