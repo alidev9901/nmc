@@ -4540,6 +4540,7 @@ table.table2 tr {
   position: relative;
   top: 1px;
   transition: 0.4s;
+  transform: rotate(90deg);
 }
 .materials__list-item-button:hover {
   color: #049EFC;
