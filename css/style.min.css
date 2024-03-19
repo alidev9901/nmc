@@ -4341,6 +4341,8 @@ table.table2 tr {
 
 .features__item {
   display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
 
 .features__item-info {
@@ -6364,7 +6366,6 @@ table.table2 tr {
     max-height: 316px;
   }
   .features__item {
-    flex-direction: column-reverse;
     width: 100%;
   }
   .features__item-info {
@@ -6443,6 +6444,15 @@ table.table2 tr {
   }
   .about__brand-img {
     transform: scale(0.8);
+  }
+  .features__item {
+    flex-direction: column-reverse;
+  }
+  .features__item-img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 198px;
   }
   .footer__nav-wrap {
     width: calc(100% - 30px);
