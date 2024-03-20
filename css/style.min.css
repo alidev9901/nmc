@@ -1136,11 +1136,11 @@ p {
 }
 
 .info__featured-item-info {
-  margin-top: 15px;
-  margin-left: 16px;
   display: flex;
   flex-direction: column;
   width: calc(100% - 56px);
+  padding: 20px 0;
+  margin-left: 34px;
 }
 
 .info__featured-item-data {
@@ -5959,6 +5959,8 @@ table.table2 tr {
   }
   .info__featured-item-info {
     width: 100%;
+    margin-left: 0;
+    padding: 10px;
   }
   .info__featured-item-img-wrap {
     width: 110px;
