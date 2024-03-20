@@ -5035,11 +5035,6 @@ table.table2 tr {
   .about__brand {
     flex-wrap: wrap;
   }
-  .info__left {
-    width: calc(100% - 30px);
-    margin-bottom: 24px;
-    padding: 30px 30px 51px 30px;
-  }
   .info__featured-item-title {
     max-width: unset;
   }
