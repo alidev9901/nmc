@@ -1171,12 +1171,13 @@ p {
   height: 140px;
   border-radius: 12px 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .info__featured-item-img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .info__featured-item-info {
