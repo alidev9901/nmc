@@ -4713,6 +4713,33 @@ table.table2 tr {
   background-size: contain;
 }
 
+.to-top {
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  box-shadow: 10px 10px 15px 0 rgba(4, 158, 252, 0.1);
+  background: linear-gradient(247deg, rgba(87, 209, 220, 0.5) 0%, rgba(4, 158, 252, 0.5) 100%);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 222;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.to-top:hover {
+  background: linear-gradient(246.97deg, #57d1dc 8.95%, #049efc 91.8%);
+}
+.to-top.active {
+  opacity: 1;
+  visibility: visible;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
