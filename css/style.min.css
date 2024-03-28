@@ -4075,7 +4075,6 @@ table.table2 tr {
   row-gap: 10px;
 }
 .product__info-thumb--two img {
-  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
