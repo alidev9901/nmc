@@ -3818,6 +3818,19 @@ table.table2 tr {
 .product__block-thumb:not(.full-height) {
   height: 373px;
 }
+.product__block-thumb.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  gap: 10px;
+}
+.product__block-thumb.two img {
+  height: 80%;
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .product__block img {
   height: 100%;
   -o-object-fit: cover;
@@ -6176,6 +6189,13 @@ table.table2 tr {
   .product__block-thumb.auto-height-md {
     height: auto;
   }
+  .product__block-thumb.two {
+    flex-direction: column;
+  }
+  .product__block-thumb.two img {
+    width: 100%;
+    height: 44%;
+  }
   .product__big-image {
     padding-right: 0;
     padding: 15px;
@@ -6744,6 +6764,7 @@ table.table2 tr {
     font-size: 14px;
   }
   .categories__item-more-link {
+    padding: 9px 57px 9px 15px;
     padding-right: 55px;
   }
   .categories__item-img-transparent {
